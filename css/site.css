@@ -14,3 +14,8 @@ body {
     height: 40vh;
     background-size: cover;
   }
+
+
+  .bg-primary{
+    background-color: #a593c2 !important;
+  }
