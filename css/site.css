@@ -5,6 +5,9 @@ body {
     background-repeat: repeat;
   }
 
+.jumbotron-order{
+  background: url('../images/carousel3.jpg') no-repeat fixed;
+  }
 
   .jumbotron-detail-apple-pie{
   background: url('../images/products/applepie.jpg') no-repeat fixed;
