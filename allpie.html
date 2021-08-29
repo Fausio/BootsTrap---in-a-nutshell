@@ -13,7 +13,7 @@
 
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-primary">
-          
+
             <div class="container">
 
                 <a class="navbar-brand" href="index.html">
@@ -21,22 +21,38 @@
                     Bethany's Pie Shop
                 </a>
 
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="nav navbar-nav mr-out">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Pies
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="allpie.html">Fruit pies</a>
+                                <a class="dropdown-item" href="allpie.html">Cheese cakes</a>
+                                <a class="dropdown-item" href="seasonpies.html">Seasonal pies</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="allpie.html">All pies</a>
+                            </div>
+                        </li>
                         <li class="nav-item">
-                         <a class="nav-link" href="allpie.html">Pies</a>
-                         </li>
-                         <li class="nav-item">
-                             <a class="nav-link" href="order.html">Order</a>
-                             </li>
+                            <a class="nav-link" href="order.html">Order</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-           
-          </nav>
+
+        </nav>
     </header>
 
     <main role="main">
@@ -101,6 +117,9 @@
              </div>
         </div>        
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
